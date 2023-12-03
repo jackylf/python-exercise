@@ -1,0 +1,753 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+        <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><title>Western and Central Wyoming</title><meta name="DC.title" content="Western and Central Wyoming"><meta name="DC.description" content="NOAA National Weather Service Western and Central Wyoming"><meta name="DC.creator" content="US Department of Commerce, NOAA, National Weather Service"><meta name="DC.date.created" scheme="ISO8601" content=""><meta name="DC.language" scheme="DCTERMS.RFC1766" content="EN-US"><meta name="DC.keywords" content="weather, Western and Central Wyoming"><meta name="DC.publisher" content="NOAA's National Weather Service"><meta name="DC.contributor" content="National Weather Service"><meta name="DC.rights" content="http://www.weather.gov/disclaimer.php"><meta name="rating" content="General"><meta name="robots" content="index,follow">
+
+        <link href="/css/weatherstyle.css" rel="stylesheet" type="text/css">
+        <link href="/css/template.css" rel="stylesheet" type="text/css">
+        <link href="/css/myfcst.css" rel="stylesheet" type="text/css">
+        <link href="/css/ForecastSearch.css" rel="stylesheet" type="text/css">
+        <link href="/css/pointforecast.css" rel="stylesheet" type="text/css">
+        <link href="/css/jqueryui10_3_1custom/jquery-ui-1.10.3.custom.min.css" rel="stylesheet" type="text/css">
+        <link href="/css/widgets.css" rel="stylesheet" type="text/css">
+        <link href="/css/colorbox/colorbox.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=UA-60219664-1&amp;l=dataLayer&amp;cx=c"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-CSLL4ZEK4L&amp;l=dataLayer&amp;cx=c"></script><script type="text/javascript" async="" src="https://cdn.gov.cfigroup.com/webmon/s/source/webmon/ce989efe8b1040/webmon.js"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="/js/jquery-1.10.2.min.js"></script>
+        <!-- <script type="text/javascript" src="/js/jquery.mobile-1.4.0.min.js"></script> //-->
+        <script type="text/javascript" src="/js/jquery-ui-1.10.3.custom.min.js"></script>
+        <script type="text/javascript" src="/js/jquery.hoverIntent.minified.js"></script>
+        <script type="text/javascript" src="/js/ForecastSearch.js"></script>
+        <script type="text/javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOC&amp;sub-agency=NOAA&amp;pua=G-736JJ6NL0V"></script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-CSLL4ZEK4L"></script>
+        <script type="text/javascript" src="/js/topNavMenu.js"></script>
+        <script type="text/javascript" src="/js/NidsESRI.js"></script>
+        <script type="text/javascript">
+        (function() {
+          var a = document.createElement('script');
+          a.type = 'text/javascript';
+          a.async = true;
+          a.src = 'https://cdn.gov.cfigroup.com/webmon/s/source/webmon/ce989efe8b1040/webmon.js';
+          var b = document.getElementsByTagName('script')[0];
+          b.parentNode.insertBefore(a, b);
+        })();
+        </script>
+        <script type="text/javascript" src="/js/widgets.js"></script>
+        <script type="text/javascript" src="/js/jquery.cycle2.min.js"></script>
+        <script type="text/javascript" src="/js/jquery.colorbox-min.js"></script>
+        <script type="text/javascript" src="/js/nwsexit.js"></script>
+        <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-736JJ6NL0V"></script>
+            <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+gtag('config', 'G-736JJ6NL0V');
+gtag('config', 'UA-60219664-1');
+</script>
+<script>
+$(document).ready(function() {
+  $('img.nocache').each(function () {
+      var $this = $(this);
+      $this.attr('src', noCache($this.attr('src')));
+  });
+});
+function noCache(url) {
+  return url + (url.indexOf('?') >= 0 ? '&nocache=' : '?') + $.now();
+}
+</script>
+
+    <meta http-equiv="origin-trial" content="AymqwRC7u88Y4JPvfIF2F37QKylC04248hLCdJAsh8xgOfe/dVJPV3XS3wLFca1ZMVOtnBfVjaCMTVudWM//5g4AAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9"></head>
+    <body style=""> 
+        <!-- CFI SURVEY -->
+        <div id="ZN_9tslIS2mj3KoPgp"><!--DO NOT REMOVE-CONTENTS PLACED HERE--></div> 
+        <!-- CFI SURVEY END -->
+
+        		<div class="header">
+			<div class="header-content">
+			<a href="http://www.weather.gov" class="header-nws"><img src="/css/images/header.png" alt="National Weather Service"></a>
+			<a href="http://www.commerce.gov" class="header-doc"><img src="/css/images/header_doc.png" alt="United States Department of Commerce"></a>
+            <a href="http://www.noaa.gov" class="header-noaa" title="National Oceanic and Atmospheric Administration"></a>
+            </div>
+                    <div style="clear:both"></div>
+		</div>
+
+		<div class="header-shadow">
+			<div class="header-shadow-content"></div>
+		</div>
+	
+
+        <div class="center">
+
+                    <div class="content">
+            <div class="topnav">
+                <ul id="topnav">
+                    <li>
+                        <script type="text/javascript">
+                            function goBack()
+                            {
+                                if (document.referrer.toLowerCase().indexOf("weather.gov") != -1)
+                                {
+                                    history.back();
+                                }
+                                else
+                                {
+                                    document.location.href = "http://www.weather.gov";
+                                }
+                            }
+                        </script>
+                        <div class="topMenuNavList home">
+                            <a href="#" onclick="goBack();">HOME</a>
+                        </div>
+                    </li>
+                    <li>	
+                        <div class="topMenuNavList section-link">
+                            	<a href="http://www.weather.gov/forecastmaps">FORECAST</a>                        </div>
+                            <div style="opacity: 0;" class="sub"> <ul>                        <li>                            <a href="http://www.weather.gov">Local</a>                        </li>                        <li>                            <a href="http://digital.weather.gov">Graphical</a>                        </li>                        <li>                            <a href="http://www.aviationweather.gov/">Aviation</a>                        </li>                        <li>                            <a href="http://www.weather.gov/marine">Marine</a>                        </li>                        <li>                            <a href="http://water.weather.gov/ahps/">Rivers and Lakes</a>                        </li>                        <li>                            <a href="http://www.nhc.noaa.gov/">Hurricanes</a>                        </li>                        <li>                            <a href="http://www.spc.noaa.gov/">Severe Weather</a>                        </li>                        <li>                            <a href="http://www.weather.gov/fire/">Fire Weather</a>                        </li>                        <li>                            <a href="https://www.esrl.noaa.gov/gmd/grad/solcalc/sunrise.html">Sun/Moon</a>                        </li>                        <li>                            <a href="http://www.cpc.ncep.noaa.gov/">Long Range Forecasts</a>                        </li>                        <li>                            <a href="http://www.cpc.ncep.noaa.gov">Climate Prediction</a>                        </li>                        <li>                            <a href="https://www.swpc.noaa.gov/">Space Weather</a>                        </li></ul></div>                        </li>
+            <li>	
+                        <div class="topMenuNavList section-link">
+                            	<a href="https://www.weather.gov/wrh/climate/">PAST WEATHER</a>                        </div>
+                            <div style="opacity: 0;" class="sub"> <ul>                        <li>                            <a href="https://www.weather.gov/wrh/climate/">Past Weather</a>                        </li>                        <li>                            <a href="https://www.weather.gov/wrh/climate/">Heating/Cooling Days</a>                        </li>                        <li>                            <a href="https://www.weather.gov/wrh/climate/">Monthly Temperatures</a>                        </li>                        <li>                            <a href="https://www.weather.gov/wrh/climate/">Records</a>                        </li>                        <li>                            <a href="http://aa.usno.navy.mil/">Astronomical Data</a>                        </li></ul></div>                        </li>
+            <li>	
+                        <div class="topMenuNavList section-link">
+                            	<a href="http://www.weather.gov/safety">SAFETY</a>                        </div>
+                            <div style="opacity: 0;" class="sub"> <ul>                        <li>                            <a href="https://www.weather.gov/safety/tsunami">Tsunamis</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/flood">Floods</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/beachhazards">Beach Hazards</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/wildfire">Wildfire</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/cold">Cold</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/tornado">Tornadoes</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/airquality">Air Quality</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/fog">Fog</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/heat">Heat</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/hurricane">Hurricanes</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/lightning">Lightning</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/safeboating">Safe Boating</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/ripcurrent">Rip Currents</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/thunderstorm">Thunderstorms</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/space">Space Weather</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/heat-uv">Sun (Ultraviolet Radiation)</a>                        </li>                        <li>                            <a href="http://www.weather.gov/safetycampaign">Safety Campaigns</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/wind">Wind</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/drought">Drought</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/winter">Winter Weather</a>                        </li></ul></div>                        </li>
+            <li>	
+                        <div class="topMenuNavList section-link">
+                            	<a href="http://www.weather.gov/informationcenter">INFORMATION</a>                        </div>
+                            <div style="opacity: 0;" class="sub"> <ul>                        <li>                            <a href="http://www.weather.gov/wrn/wea">Wireless Emergency Alerts</a>                        </li>                        <li>                            <a href="https://www.weather.gov/owlie/publication_brochures">Brochures</a>                        </li>                        <li>                            <a href="http://www.weather.gov/wrn/">Weather-Ready Nation</a>                        </li>                        <li>                            <a href="https://www.weather.gov/coop/">Cooperative Observers</a>                        </li>                        <li>                            <a href="http://www.weather.gov/briefing/">Daily Briefing</a>                        </li>                        <li>                            <a href="http://www.nws.noaa.gov/om/hazstats.shtml">Damage/Fatality/Injury Statistics</a>                        </li>                        <li>                            <a href="http://mag.ncep.noaa.gov/">Forecast Models</a>                        </li>                        <li>                            <a href="https://www.weather.gov/gis">GIS Data Portal</a>                        </li>                        <li>                            <a href="https://www.weather.gov/nwr/">NOAA Weather Radio</a>                        </li>                        <li>                            <a href="http://weather.gov/publications">Publications</a>                        </li>                        <li>                            <a href="http://www.weather.gov/SKYWARN">SKYWARN Storm Spotters</a>                        </li>                        <li>                            <a href="http://www.weather.gov/StormReady">StormReady</a>                        </li>                        <li>                            <a href="https://www.weather.gov/TsunamiReady/">TsunamiReady</a>                        </li>                        <li>                            <a href="https://www.weather.gov/notification/">Service Change Notices</a>                        </li></ul></div>                        </li>
+            <li>	
+                        <div class="topMenuNavList section-link">
+                            	<a href="http://www.weather.gov/education">EDUCATION</a>                        </div>
+                            <div style="opacity: 0;" class="sub"> <ul>                        <li>                            <a href="https://www.weather.gov/wrn/force">Be A Force of Nature</a>                        </li>                        <li>                            <a href="http://www.weather.gov/owlie">NWS Education Home</a>                        </li></ul></div>                        </li>
+            <li>	
+                        <div class="topMenuNavList section-link">
+                            	<a href="http://www.weather.gov/news/">NEWS</a>                        </div>
+                            <div style="opacity: 0;" class="sub"> <ul>                        <li>                            <a href="http://www.weather.gov/news">NWS News</a>                        </li>                        <li>                            <a href="https://www.weather.gov/wrn/calendar">Events</a>                        </li>                        <li>                            <a href="https://www.weather.gov/owlie/publication_brochures">Pubs/Brochures/Booklets </a>                        </li>                        <li>                            <a href="http://www.noaa.gov/NOAA-Communications">NWS Media Contacts</a>                        </li></ul></div>                        </li>
+            <li>	
+                        <div class="topMenuNavList section-link">
+                            	<a href="http://www.weather.gov/search">SEARCH</a>                        </div>
+                             
+                            <div style="opacity: 0;" class="sub">     
+                                <ul class="no-links">
+                                <li><!-- Begin search code -->
+                                    <div id="site-search">
+                                        <form method="get" action="https://search.usa.gov/search" style="margin-bottom: 0; margin-top: 0;">
+                                            <input type="hidden" name="v:project" value="firstgov"> 
+                                            <label for="query">Search For</label> 
+                                            <input type="text" name="query" id="query" size="12"> 
+                                            <input type="submit" value="Go">
+                                            <p>
+                                                <input type="radio" name="affiliate" checked="checked" value="nws.noaa.gov" id="nws"> 
+                                                <label for="nws" class="search-scope">NWS</label> 
+                                                <input type="radio" name="affiliate" value="noaa.gov" id="noaa"> 
+                                                <label for="noaa" class="search-scope">All NOAA</label>
+                                            </p>
+                                        </form>
+                                    </div>
+                                </li>
+                                </ul>
+                            </div>
+                                                        </li>
+            <li class="last">	
+                        <div class="topMenuNavList section-link">
+                            	<a href="http://www.weather.gov/about">ABOUT</a>                        </div>
+                            <div style="opacity: 0;" class="sub"> <ul>                        <li>                            <a href="http://www.weather.gov/about">About NWS</a>                        </li>                        <li>                            <a href="http://www.weather.gov/organization">Organization</a>                        </li>                        <li>                            <a href="https://www.weather.gov/media/wrn/NWS-2023-Strategic-Plan.pdf">Strategic Plan</a>                        </li>                        <li>                            <a href="http://www.weather.gov/careers/#diversity">Commitment to Diversity</a>                        </li>                        <li>                            <a href="https://sites.google.com/a/noaa.gov/nws-insider/">For NWS Employees</a>                        </li>                        <li>                            <a href="http://www.weather.gov/insider">International</a>                        </li>                        <li>                            <a href="http://www.weather.gov/ncep">National Centers</a>                        </li>                        <li>                            <a href="http://www.weather.gov/careers/">Careers</a>                        </li>                        <li>                            <a href="http://www.weather.gov/contact">Contact Us</a>                        </li>                        <li>                            <a href="https://w1.weather.gov/glossary">Glossary</a>                        </li>                        <li>                            <a href="https://weather.gov/socialmedia">Social Media</a>                        </li></ul></div>                        </li>
+                            </ul>
+            </div>
+        </div>
+
+        
+
+            <div class="center-content">
+                <div id="zipcity_news">
+                    		<div class="one-sixth-first">
+			<div id="forecast-lookup">
+				<form name="getForecast" id="getForecast" action="https://forecast.weather.gov/zipcity.php" method="get">
+                    <label for="inputstring">Local forecast by <br>"City, St" or ZIP code</label>
+                    <input id="inputstring" name="inputstring" type="text" value="Enter location ..." onclick="this.value=''" autocomplete="off">
+                    <input name="btnSearch" id="btnSearch" type="submit" value="Go">
+                    <div id="txtError">
+                        <div id="errorNoResults" style="display:none;">Sorry, the location you searched for was not found. Please try another search.</div>
+                        <div id="errorMultipleResults" style="display:none">Multiple locations were found. Please select one of the following:</div>
+                        <div id="errorChoices" style="display:none"></div>
+                        <input id="btnCloseError" type="button" value="Close" style="display:none">
+                    </div>
+                    <div id="txtHelp"><a style="text-decoration: underline;" href="javascript:void(window.open('http://weather.gov/ForecastSearchHelp.html','locsearchhelp','status=0,toolbar=0,location=0,menubar=0,directories=0,resizable=1,scrollbars=1,height=500,width=530').focus());">Location Help</a></div>
+                </form>
+
+			</div><!-- <div id="forecast-lookup"> -->
+		</div><!-- <div class="one-sixth-first"> -->
+	
+                    <div class="five-sixth-last">
+    <div id="topnews">
+        <div id="global_localnews" style="float:left;width:800px;">
+            <div id="global_localnews_headerbar_main">
+                <div id="global_localnews_headerbar_sub_left">
+                    <div id="global_localnews_title" style="color:black;margin:5px 0px 2px 0px;font-size:14px;font-weight:bold;">News Headlines</div>
+                </div>
+            </div>
+            <div id="localnews">
+                <ul>
+                                    <li><a href="https://www.weather.gov/wrn/fall-safety"><strong>Are you Weather-Ready for the Fall? Click here to check out our latest weather safety graphics.</strong></a></li>
+                                </ul>
+                            </div>
+        </div>
+    </div>
+<div class="sitrep" style="display: none;"><svg xmlns="http://www.w3.org/2000/svg" width="60" fill="#664d03" viewBox="0 0 16 16"><path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"></path></svg><div class="sitrepText"><div class="sitrepTitle"><div class="sitrepTitleText"><a href="/media/riw/DssPacket.pdf">
+        No Briefing Currently In Effect.
+      </a></div></div><div class="sitrepSubtext">
+         Click to view briefing. 
+      </div></div></div></div>
+<script type="text/javascript">
+    /** news headline Additional Headlines link **/
+    $(document).ready(function () {
+        $("#additionalNews").toggle();
+        $(".toggleHeadlines a").click(function(e){
+            e.preventDefault();
+            e.stopPropagation();
+            $(".toggleHeadlines").toggle();
+            $(".hidden-news-link").toggle();
+        });
+    });
+</script>
+
+                </div>
+                <div class="full-width-bordertop">
+                    <div class="div-full">
+
+                        <!-- area for the myforecast widget and wwamap data -->
+                        <div class="one-sixth-first" id="sidebar">
+                                    <script type="text/javascript" src="/js/jquery-cookie.js"></script>
+        <script type="text/javascript" src="/js/MyForecastWidget.js"></script>
+        <div id="myfcst-widget">
+            <div id="myfcst">
+                <form id="myfcst-form" action="/widgets/MyForecastWidget.php" style="display: none;">
+                    <span id="myfcst-title">Customize Your <strong>Weather.gov</strong></span>
+                    <span id="myfcst-error"></span>
+                    <div id="myfcst-input-block">
+                        <input type="text" name="myfcst-location-input" id="myfcst-location-input" value="City, ST"> 
+                        <label for="myfcst-location-input">Enter Your City, ST or ZIP Code</label><br>	
+                        <input type="checkbox" name="myfcst-remember" id="myfcst-remember">
+                        <label for="myfcst-remember">Remember Me</label> 					
+                    </div>
+                    <div class="myfcst-footer">
+                        <input type="submit" value="Get Weather" id="myfcst-submit">
+                        <p class="myfcst-policy"><a href="http://www.weather.gov/privacy.php">Privacy Policy</a></p>
+                    </div>
+                </form>
+                <div id="myfcst-fcst" style="display: block;"><div><span id="myfcst-title">MY FORECAST</span><p class="myfcst-location">Riverton WY</p><img src="//forecast.weather.gov/newimages/medium/novc.png" id="myfcst-current"><p id="myfcst-location">Overcast</p><span id="myfcst-tempf">50°„F</span><div class="myfcst-footer"><span id="myfcst-tempc">10°„C</span><a id="myfcst-details" href="//forecast.weather.gov/MapClick.php?textField1=43.0250&amp;textField2=-108.3801" target="_blank">Get Detailed info</a></div><div class="myfcst-hr"></div><div class="myfcst-later"><p class="myfcst-location">Overnight</p><img src="https://forecast.weather.gov/newimages/medium/ntsra30.png"><p class="myfcst-forecast">Scattered T-storms</p><span id="myfcst-low">Low: 45°„F</span></div><br><div class="myfcst-later"><p class="myfcst-location">Friday</p><img src="https://forecast.weather.gov/newimages/medium/wind_sct.png"><p class="myfcst-forecast">Mostly Sunny and Windy</p><span id="myfcst-high">High: 68°„F</span></div><div class="myfcst-hr"></div><div class="myfcst-footer"><a id="myfcst-change-location" href="#">change location</a></div></div></div>
+                <div id="myfcst-multi-result"></div>
+                <div id="myfcst-loading" style="display: none;">LOADING...</div>
+            </div>
+            
+        </div>
+        
+                            <div class="div-full cms-content" id="cms_page_badges"><script>
+  /* Attach tracking to all download & external links */
+var _gaq = _gaq || [];
+
+function _gaLt(event){
+    var el = event.srcElement || event.target;
+
+    /* Loop through parent elements if clicked element is not a link (ie: <a><img /></a> */
+    while(el && (typeof el.tagName == 'undefined' || el.tagName.toLowerCase() != 'a' || !el.href))
+        el = el.parentNode;
+
+    if(el && el.href){
+        dl = document.location;
+        l = dl.pathname + dl.search;
+        h = el.href;
+        c = !1;
+        if(h.indexOf(location.host) == -1){
+            c = "Outgoing Links";
+            a = h;
+        }
+        else if(h.match(/\/assets\//) && !h.match(/\.(jpe?g|bmp|png|gif|tiff?)$/i)){
+            c = "Downloads";
+            a = h.match(/\/assets\/(.*)/)[1];
+        }
+        if(c){
+            _gaq.push(["_trackEvent",c,a,l]);
+            /* Push secondary tracker if set */
+            _gaq2 && _gaq.push(["b._trackEvent",c,a,l]);
+            /* if target not set delay opening of window by 0.5s to allow tracking */
+            if(!el.target || el.target.match(/^_(self|parent|top)$/i)){
+                setTimeout(function(){
+                    document.location.href = el.href;
+                }.bind(el),500);
+                /* Prevent standard click */
+                event.preventDefault ? event.preventDefault() : event.returnValue = !1;
+            }
+        }
+
+    }
+}
+
+var d = document;
+d.addEventListener ? d.addEventListener("click",_gaLt,!1) : d.attachEvent && d.attachEvent("onclick",_gaLt);
+
+</script>
+<script>
+	$(document).ready(function(){ 
+		$('.mod-image-tiles .one-sixth-first').css({
+    	'width' : '31%',
+    	'height': '225px',
+        'margin-bottom': '35px'
+    	});
+
+		$('.mod-image-tiles img').css({
+    	'width' : '100%',
+        'height': '100%',
+    	});
+
+	});
+</script></div>
+                        </div><!-- end of <div class="one-sixth-first"> -->
+
+                        <div class="five-sixth-first" id="pagebody">
+                            <div class="div-full breadcrumb">    <div class="sitename">        <p class="sitename-name">Western and Central Wyoming</p>        <p class="sitename-class">Weather Forecast Office</p>    </div>    <div class="location">        <h1 class="location-pagetitle">NWS Forecast Office Riverton, WY</h1>        <div class="location-breadcrumb">            <a href="https://www.weather.gov">Weather.gov</a> &gt; Western and Central Wyoming        </div>    </div></div>
+                            <div class="div-full">    <div class="subMenuNav">        <ul id="subMenuNav">            <li>                <div class="subMenuNavList section-link">                    <a href="http://forecast.weather.gov/product.php?site=NWS&amp;issuedby=RIW&amp;product=HWO">Current Hazards</a>                </div>                <div class="sub">                    <ul>                        <li>                            <a href="http://forecast.weather.gov/product.php?site=RIW&amp;issuedby=RIW&amp;product=LSR&amp;format=CI&amp;version=1&amp;glossary=1">Storm and Precipitation Reports</a>                        </li>                        <li>                            <a href="http://www.weather.gov/crh/outlooks">Outlooks</a>                        </li>                        <li>                            <a href="https://www.weather.gov/crh/stormreports?sid=riw">Submit a Storm Report</a>                        </li>                        <li>                            <a href="https://www.weather.gov/erh/ghwo?wfo=riw">Experimental Graphical Hazardous Weather Outlook</a>                        </li>                    </ul>                </div>            </li>            <li>                <div class="subMenuNavList section-link">                    <a href="/">Current Conditions</a>                </div>                <div class="sub">                    <ul>                        <li>                            <a href="https://www.aviationweather.gov/metar?zoom=5&amp;lat=43.28323&amp;lon=-92.6604">Observations</a>                        </li>                        <li>                            <a href="/crh/snowfall">Snowfall Analysis</a>                        </li>                        <li>                            <a href="http://www.weather.gov/source/crh/lsrmap.html?sid=riw">Local Storm Reports</a>                        </li>                        <li>                            <a href="http://www.weather.gov/source/crh/snowmap.html?sid=riw">Local Snowfall Reports</a>                        </li>                        <li>                            <a href="http://www.weather.gov/source/crh/icemap.html?sid=riw">Local Ice Accumulation Reports</a>                        </li>                        <li>                            <a href="http://water.weather.gov/precip/">Observed Precipitation</a>                        </li>                        <li>                            <a href="https://www.star.nesdis.noaa.gov/GOES/index.php">Satellite</a>                        </li>                    </ul>                </div>            </li>            <li>                <div class="subMenuNavList section-link">                    <a href="https://radar.weather.gov">Radar</a>                </div>                <div class="sub">                    <ul>                        <li>                            <a href="https://radar.weather.gov/?settings=v1_eyJhZ2VuZGEiOnsiaWQiOiJsb2NhbCIsImNlbnRlciI6Wy0xMDguNDc3LDQzLjA2Nl0sInpvb20iOjguMTI2ODc1NzIxODAzODIsImZpbHRlciI6IldTUi04OEQiLCJsYXllciI6ImJyZWZfcmF3Iiwic3RhdGlvbiI6IktSSVciLCJ0cmFuc3BhcmVudCI6dHJ1ZSwiYWxlcnRzT3ZlcmxheSI6dHJ1ZSwic3RhdGlvbkljb25zT3ZlcmxheSI6dHJ1ZX0sImJhc2UiOiJzdGFuZGFyZCIsImNvdW50eSI6ZmFsc2UsImN3YSI6ZmFsc2UsInN0YXRlIjpmYWxzZSwibWVudSI6dHJ1ZSwic2hvcnRGdXNlZE9ubHkiOnRydWV9#/">Local Enhanced Radar</a>                        </li>                        <li>                            <a href="https://www.weather.gov/radarliteloop?radarid=KRIW">Local Standard Radar (low bandwidth)</a>                        </li>                        <li>                            <a href="https://radar.weather.gov/region/northrockies/standard">Regional Standard Radar (low bandwidth) </a>                        </li>                    </ul>                </div>            </li>            <li>                <div class="subMenuNavList section-link">                    <a href="#">Forecasts</a>                </div>                <div class="sub">                    <ul>                        <li>                            <a href="http://forecast.weather.gov/gridpoint.php?site=riw&amp;TypeDefault=graphical">Hourly Forecasts</a>                        </li>                        <li>                            <a href="http://forecast.weather.gov/wxplanner.php?site=riw">Activity Planner</a>                        </li>                        <li>                            <a href="http://www.nws.noaa.gov/wtf/udaf/area/?site=riw">User Defined Area Forecast</a>                        </li>                        <li>                            <a href="/riw/fire">Fire Weather</a>                        </li>                        <li>                            <a href="http://forecast.weather.gov/product.php?site=RIW&amp;issuedby=RIW&amp;product=AFD&amp;format=CI&amp;version=1&amp;glossary=1">Forecast Discussion</a>                        </li>                        <li>                            <a href="https://www.weather.gov/riw/Aviation_DSS_Page">Aviation Weather Decision Support</a>                        </li>                        <li>                            <a href="https://www.weather.gov/riw/snowrec">Snow Recreation Page</a>                        </li>                        <li>                            <a href="https://www.weather.gov/riw/AvalancheWeather">Avalanche Weather</a>                        </li>                        <li>                            <a href="https://www.weather.gov/riw/RIW_GDSSImages">DSS Forecast Images</a>                        </li>                        <li>                            <a href="https://www.weather.gov/riw/winter">Winter Weather</a>                        </li>                    </ul>                </div>            </li>            <li>                <div class="subMenuNavList section-link">                    <a href="https://water.weather.gov/ahps2/index.php?wfo=RIW">Rivers and Lakes</a>                </div>            </li>            <li>                <div class="subMenuNavList section-link">                    <a href="https://www.weather.gov/wrh/climate?wfo=riw">Climate and Past Weather</a>                </div>                <div class="sub">                    <ul>                        <li>                            <a href="https://www.weather.gov/wrh/climate?wfo=riw">Local</a>                        </li>                        <li>                            <a href="http://www.drought.gov/drought/">Drought</a>                        </li>                        <li>                            <a href="http://www.climate.gov/">NOAA Climate Service</a>                        </li>                        <li>                            <a href="/riw/events">Event Summaries</a>                        </li>                    </ul>                </div>            </li>            <li>                <div class="subMenuNavList section-link">                    <a href="/riw/">Local Programs</a>                </div>                <div class="sub">                    <ul>                        <li>                            <a href="/riw/blog">Blog</a>                        </li>                        <li>                            <a href="https://www.weather.gov/crh/publications">Publications</a>                        </li>                        <li>                            <a href="cms_webcams_qview">Web Cams by Route</a>                        </li>                        <li>                            <a href="http://www.weather.gov/riw/drought">Local Drought Information</a>                        </li>                        <li>                            <a href="text_products">Text Products</a>                        </li>                        <li>                            <a href="https://www.weather.gov/riw/cms_freezedates">Spring Frost &amp; Freeze Information</a>                        </li>                        <li>                            <a href="https://www.weather.gov/riw/SnoTelbyBasin">SnoTels &amp; River Gauge Heights by Basin</a>                        </li>                        <li>                            <a href="agburning">Agricultural Burning</a>                        </li>                        <li>                            <a href="http://www.weather.gov/riw/cliplot">Local Climate Graphs</a>                        </li>                        <li>                            <a href="http://midsouthtornadoes.msstate.edu/index.php?cw=riw">Tornado Database for Central and Western Wyoming</a>                        </li>                        <li>                            <a href="bighorn_nf">Points of Interest - Bighorn National Forest</a>                        </li>                        <li>                            <a href="ynp_gtnp">Points of Interest - Yellowstone and Grand Teton NPs</a>                        </li>                        <li>                            <a href="http://www.weather.gov/riw/faq">NWS WFO Riverton - Frequently Asked Questions</a>                        </li>                        <li>                            <a href="http://www.weather.gov/riw/staff">Our Office</a>                        </li>                        <li>                            <a href="https://www.weather.gov/riw/WFORivertonInformation">WFO Riverton Information</a>                        </li>                    </ul>                </div>            </li>        </ul>    </div></div>
+
+                            
+                            <div class="div-full">
+		<div id="wx_map_border" style="margin-bottom-15px;min-height:450px;width:600px;padding:2px;">		<style type="text/css">
+ 		#wfomap_main{
+			width:700px;
+			padding:0px;
+			margin:5px 0px 5px 0px;
+		}
+		#wfomap_container{
+			width:354px;
+			border:1px solid black;
+			background-repeat:no-repeat;
+			height:274px;
+			padding:0px;
+ 			margin:0px;
+			float: left;
+		}
+		#wfomap_rtcol{
+			float: left;
+			width:190px;
+			border:1px solid black;
+			margin:0px 0px 0px 5px;
+		}
+		#wfomap_rtcol_top_lt{
+			padding-top:5px;
+			width:86px;
+			float: left;
+		}
+		#wfomap_rtcol_top_rt{
+			width:64px;
+			float: left;
+			line-height: 0pt;
+			margin:0px 0px 0px 40px;
+		}
+		#wfomap_rtcol_bot{
+			float: left;
+			width:190px;
+			border-top:1px solid black;
+			line-height: 0pt;
+		}
+		#wfomap_rtcol_bot a{
+			line-height: 10pt;
+		}
+		#wfomap_rtcol_bot table{
+			width:180px;
+		}
+		#wfomap_rtcol_bot table td{
+			padding:2px 0px 1px 5px;
+		}
+		#wwamap_header{
+			text-align:center;
+			font-weight:bold;
+			width:355px;
+			margin:0px 0px 5px 0px;
+		}
+		#wwamap_time_area{
+			margin:5px 0px 0px 0px;
+			width:100%;
+			text-align:center;
+			font-size:12px;
+			font-weight:bold;
+		}
+		#language_version_area{
+			position:relative;
+			margin:0px 0px 5px 420px;
+		}
+		</style>
+
+		<script language="javascript">
+                $(document).ready(function(){
+                   $("#wwamapImage").click(function(e){
+                        var offset_l = $(this).offset().left - $(window).scrollLeft();
+			var offset_t = $(this).offset().top - $(window).scrollTop();
+			var left =  Math.round( (e.clientX - offset_l) );
+			var top = Math.round( (e.clientY - offset_t) );
+			//console.log("click position result --> X: " + left + ", Y: " + top);
+			$('#mapx').val(left);
+			$('#mapy').val(top);
+                   });
+                });
+		</script>
+
+		<div id="wwamap"><div class="widget3"><div class="widget3Image"></div><div class="widget3Text"><div class="widget3Title"><div class="widget3TitleText"></div></div><div class="widget3Subtext"></div></div></div>
+		<div id="wfomap_main" style="margin:10px 0px 0px 15px;">
+			<div id="wwamap_header">Click a location below for detailed forecast.</div>
+						    <div id="wfomap_container">
+				<form name="form1" method="get" action="https://forecast.weather.gov/MapClick.php">
+				<input type="image" id="wwamapImage" src="/wwamap/png/riw.png" align="middle" alt="Map of Forecast Area" title="Map of Forecast Area">
+				<input type="hidden" name="site" value="riw">
+				<input type="hidden" name="zmx" value=""><input type="hidden" name="zmy" value="">
+				<input type="hidden" name="map_x" id="mapx" value="">
+				<input type="hidden" name="map_y" id="mapy" value="">
+				</form>
+								    <p id="wwamap_time_area">Last Map Update: Fri, Sep. 22, 2023 at 3:49:06 am MDT</p>
+							    </div>
+			
+			<!-- START RIGHT SIDE COLUMN -->
+			<div id="wfomap_rtcol">
+
+				<div id="wfomap_rtcol_top_lt">
+					<a href="/wwamap/wwatxtget.php?cwa=riw&amp;wwa=all">Watches, Warnings &amp; Advisories</a>
+				</div>
+				<div id="wfomap_rtcol_top_rt">		<style type="text/css">
+		td {
+			padding:0px;
+			vertical-align:middle;
+		}
+		.zoom a {
+			color:#ffffff;
+			font-size:9px;
+			font-weight:normal;
+			line-height:9pt;
+			text-decoration:none;
+		}
+		a {
+			vertical-align:none;
+		}
+		img {
+			display:inline;
+			vertical-align:text-top;
+		}
+
+		img.south_disabled, img.west_disabled, img.north_disabled, img.northwest_disabled, img.northeast_disabled, img.east_disabled, img.southeast_disabled, img.southwest_disabled{
+  			filter:alpha(opacity=30);
+  			-moz-opacity: .3;
+  			opacity: .3;
+		}
+		</style>
+		<table border="0" width="64" cellspacing="0" cellpadding="0" bgcolor="#003399"><tbody><tr><td><a href="javascript:void(0);" onclick="javascript:location.href='https://www.weather.gov/tfx/'"><img class="" src="/wwamap/gif/nw.gif" alt="National Weather Service Great Falls, MT" title="National Weather Service Great Falls, MT" width="17" height="17" border="0"></a></td><td align="center"><a href="javascript:void(0);" onclick="javascript:location.href='https://www.weather.gov/byz/'"><img class="" src="/wwamap/gif/n.gif" alt="National Weather Service Billings, MT" title="National Weather Service Billings, MT" width="17" height="17" border="0"></a></td><td align="right"><a href="javascript:void(0);" onclick="javascript:location.href='https://www.weather.gov/unr/'"><img class="" src="/wwamap/gif/ne.gif" alt="National Weather Service Rapid City, SD" title="National Weather Service Rapid City, SD" width="17" height="17" border="0"></a></td></tr><tr><td align="center"><a href="javascript:void(0);" onclick="javascript:location.href='https://www.weather.gov/pih/'"><img class="" src="/wwamap/gif/w.gif" alt="National Weather Service Pocatello, ID" title="National Weather Service Pocatello, ID" width="17" height="17" border="0"></a></td><td align="center" width="30" class="zoom"><img src="/wwamap/gif/spacer.gif" width="30" height="1" border="0"><a href="http://www.weather.gov">Zoom<br>Out</a><br><img src="/wwamap/gif/spacer.gif" width="30" height="1" border="0"></td><td align="center"><a href="javascript:void(0);" onclick="javascript:location.href='https://www.weather.gov/cys/'"><img class="" src="/wwamap/gif/e.gif" alt="National Weather Service Cheyenne, WY" title="National Weather Service Cheyenne, WY" width="17" height="17" border="0"></a></td></tr><tr><td><a href="javascript:void(0);" onclick="javascript:location.href='https://www.weather.gov/slc/'"><img class="" src="/wwamap/gif/sw.gif" alt="National Weather Service Salt Lake City, UT" title="National Weather Service Salt Lake City, UT" width="17" height="17" border="0"></a></td><td align="center"><a href="javascript:void(0);" onclick="javascript:location.href='https://www.weather.gov/gjt/'"><img class="" src="/wwamap/gif/s.gif" alt="National Weather Service Grand Junction, CO" title="National Weather Service Grand Junction, CO" width="17" height="17" border="0"></a></td><td align="right"><a href="javascript:void(0);" onclick="javascript:location.href='https://www.weather.gov/bou/'"><img class="" src="/wwamap/gif/se.gif" alt="National Weather Service Denver/Boulder, CO" title="National Weather Service Denver/Boulder, CO" width="17" height="17" border="0"></a></td></tr></tbody></table></div>
+
+				<div id="wfomap_rtcol_bot">
+					<table width="150" border="0" cellspacing="0" cellpadding="0">
+    <tbody><tr>
+        <td valign="top" width="2"></td>
+        <td valign="top" width="125"><img src="//forecast.weather.gov/wwamap/gif/spacer.gif" width="125" height="3" border="0"></td>
+        <td valign="top" width="20"></td>
+        <td valign="top" width="2"></td>
+    </tr>
+    <tr>
+        <td valign="top" align="left" width="2"></td>
+        <td valign="top" align="left" width="125">
+            <a href="//forecast.weather.gov/wwamap/wwatxtget.php?cwa=RIW&amp;wwa=winter weather advisory">Winter Weather Advisory</a>
+        </td>
+        <td valign="top" align="right" width="20">
+            <div style="display:inline-block; width:20px; height:12px; background-color:#7b68ee;"></div>
+        </td>
+        <td valign="top" align="left" width="2"></td>
+    </tr>
+    <tr>
+        <td valign="top" width="2"></td>
+        <td valign="top" width="125"><img src="//forecast.weather.gov/wwamap/gif/spacer.gif" width="125" height="3" border="0"></td>
+        <td valign="top" width="20"></td>
+        <td valign="top" width="2"></td>
+    </tr>
+    <tr>
+        <td valign="top" align="left" width="2"></td>
+        <td valign="top" align="left" width="125">
+            <a href="//forecast.weather.gov/wwamap/wwatxtget.php?cwa=RIW&amp;wwa=frost advisory">Frost Advisory</a>
+        </td>
+        <td valign="top" align="right" width="20">
+            <div style="display:inline-block; width:20px; height:12px; background-color:#6495ed;"></div>
+        </td>
+        <td valign="top" align="left" width="2"></td>
+    </tr>
+    <tr>
+        <td valign="top" width="2"></td>
+        <td valign="top" width="125"><img src="//forecast.weather.gov/wwamap/gif/spacer.gif" width="125" height="3" border="0"></td>
+        <td valign="top" width="20"></td>
+        <td valign="top" width="2"></td>
+    </tr>
+    <tr>
+        <td valign="top" align="left" width="2"></td>
+        <td valign="top" align="left" width="125">
+            <a href="//forecast.weather.gov/wwamap/wwatxtget.php?cwa=RIW&amp;wwa=high wind watch">High Wind Watch</a>
+        </td>
+        <td valign="top" align="right" width="20">
+            <div style="display:inline-block; width:20px; height:12px; background-color:#b8860b;"></div>
+        </td>
+        <td valign="top" align="left" width="2"></td>
+    </tr>
+    <tr>
+        <td valign="top" width="2"></td>
+        <td valign="top" width="125"><img src="//forecast.weather.gov/wwamap/gif/spacer.gif" width="125" height="3" border="0"></td>
+        <td valign="top" width="20"></td>
+        <td valign="top" width="2"></td>
+    </tr>
+    <tr>
+        <td valign="top" align="left" width="2"></td>
+        <td valign="top" align="left" width="125">
+            <a href="//forecast.weather.gov/wwamap/wwatxtget.php?cwa=RIW&amp;wwa=freeze watch">Freeze Watch</a>
+        </td>
+        <td valign="top" align="right" width="20">
+            <div style="display:inline-block; width:20px; height:12px; background-color:#00ffff;"></div>
+        </td>
+        <td valign="top" align="left" width="2"></td>
+    </tr>
+    <tr>
+        <td valign="top" width="2"></td>
+        <td valign="top" width="125"><img src="//forecast.weather.gov/wwamap/gif/spacer.gif" width="125" height="3" border="0"></td>
+        <td valign="top" width="20"></td>
+        <td valign="top" width="2"></td>
+    </tr>
+    <tr>
+        <td valign="top" align="left" width="2"></td>
+        <td valign="top" align="left" width="125">
+            <a href="//forecast.weather.gov/wwamap/wwatxtget.php?cwa=RIW&amp;wwa=hazardous weather outlook">Hazardous Weather Outlook</a>
+        </td>
+        <td valign="top" align="right" width="20">
+            <div style="display:inline-block; width:20px; height:12px; background-color:#eee8aa;"></div>
+        </td>
+        <td valign="top" align="left" width="2"></td>
+    </tr>
+    <tr>
+        <td colspan="4"><img src="//forecast.weather.gov/wwamap/gif/spacer.gif" width="150" height="3" border="0"></td>
+    </tr>
+</tbody></table>
+				</div>
+			</div>
+			<div style="clear:both;"></div>
+			<!-- END RIGHT SIDE COLUMN -->
+
+		</div><!-- end of  <div id="wfomap_main" style="margin:10px 0px 0px 15px;"> -->
+		</div><!-- end of <div id="wwamap"> -->
+	</div></div>
+                            <div class="div-full cms-content" id="front_page_content"><script src="https://www.weather.gov/source/crh/wfo_main.js"></script>
+<link href="https://www.weather.gov/source/crh/wfo_style.css" rel="stylesheet" type="text/css">
+<script>
+
+value = '43.0250,-108.3801';
+
+if ($.cookie('myForecast') == null){
+
+   $.cookie('myForecast', value);
+   $.cookie('myForecastess', value);
+ 
+}
+</script></div>
+                            
+                        </div>
+
+                    </div><!-- end of <div class="partial-width-borderbottom"> -->
+   
+                </div><!-- <div class="full-width-border"> -->
+           
+                <!-- area for features, frontpage thumbs, and custom page -->
+                
+                
+                <!-- end of <div class="partial-width-borderbottom feature-block"> -->
+                        <link rel="stylesheet" type="text/css" href="/css/mod-image-tiles.css">
+                            <div id="image_tiles">
+        <div class="div-full mod-image-tiles">
+                    <div class="one-sixth-first" style="width: 31%; height: 225px; margin-bottom: 35px;"><div class="cycle-slideshow" data-cycle-slides="li"><li class="cycle-slide cycle-sentinel" style="position: static; top: 0px; left: 0px; z-index: 99; opacity: 1; display: block; visibility: hidden;"><a href="https://www.weather.gov/riw/weatherstory" style="visibility: hidden;"><img src="/images/riw/wxstory/Tab2FileL.png" style="visibility: hidden;"></a></li><a href="https://www.weather.gov/riw/weatherstory">Weather Story</a><li class="cycle-slide cycle-slide-active" style="position: absolute; top: 0px; left: 0px; z-index: 99; opacity: 1; display: block; visibility: visible;"><a href="https://www.weather.gov/riw/weatherstory"><img src="/images/riw/wxstory/Tab2FileL.png"></a></li></div></div>
+                    <div class="one-sixth-first" style="width: 31%; height: 225px; margin-bottom: 35px;">
+                <a href="https://www.wpc.ncep.noaa.gov/national_forecast/natfcst.php"><img alt="Weather Map" src="https://www.wpc.ncep.noaa.gov/noaa/noaad1.gif" style="width: 100%; height: 100%;">Weather Map</a>
+            </div>
+                    <div class="one-sixth-first" style="width: 31%; height: 225px; margin-bottom: 35px;">
+                <a href="https://radar.weather.gov/?settings=v1_eyJhZ2VuZGEiOnsiaWQiOiJsb2NhbCIsImNlbnRlciI6Wy0xMDguNDc3LDQzLjA2Nl0sImxvY2F0aW9uIjpudWxsLCJ6b29tIjo4LjEyNjg3NTcyMTgwMzgyLCJmaWx0ZXIiOiJXU1ItODhEIiwibGF5ZXIiOiJzcl9icmVmIiwic3RhdGlvbiI6IktSSVcifSwiYW5pbWF0aW5nIjpmYWxzZSwiYmFzZSI6InN0YW5kYXJkIiwiYXJ0Y2MiOmZhbHNlLCJjb3VudHkiOmZhbHNlLCJjd2EiOmZhbHNlLCJyZmMiOmZhbHNlLCJzdGF0ZSI6ZmFsc2UsIm1lbnUiOnRydWUsInNob3J0RnVzZWRPbmx5Ijp0cnVlLCJvcGFjaXR5Ijp7ImFsZXJ0cyI6MC44LCJsb2NhbCI6MC42LCJsb2NhbFN0YXRpb25zIjowLjgsIm5hdGlvbmFsIjowLjZ9fQ%3D%3D#/"><img alt="Local Radar Image" src="https://radar.weather.gov/ridge/standard/KRIW_loop.gif" style="width: 100%; height: 100%;">Local Radar</a>
+            </div>
+                </div>
+                    </div>
+        
+                <div class="full-width-bordertop">
+                    		 <div class="full-width-first communication-links">
+                        	<div class="one-sixth-first divs">
+            		<div class="myforecast-current">
+                		<a style="text-decoration:none;" href="https://www.twitter.com/NWSRiverton" target="_blank">
+                			<img src="/css/images/twitter.png" width="16" alt="Follow us on Twitter" height="16">&nbsp;&nbsp;Follow us on Twitter
+                		</a>
+               		</div>
+               	</div>
+                        	<div class="one-sixth-first divs">
+            		<div class="myforecast-current">
+                		<a style="text-decoration:none;" href="https://www.facebook.com/NWSRiverton" target="_blank">
+                			<img src="/css/images/fb.png" width="16" height="16" alt="Follow us on Facebook">&nbsp;&nbsp;Follow us on Facebook
+                		</a>
+                	</div>
+                </div>
+         	            	<div class="one-sixth-first divs">
+            		<div class="myforecast-current">
+            			<a style="text-decoration:none;" href="https://www.youtube.com/NWSRiverton" target="_blank">
+            				<img src="/css/images/youtube_play.png" alt="Follow us on YouTube">&nbsp;&nbsp;Follow us on YouTube
+            			</a>
+            		</div>
+            	</div>
+                        <div class="one-half-last nopad">
+               	<span class="txt-rt myforecast-current">
+                	<div class="myforecast-current">
+                		<a href="/rss_page.php?site_name=riw" target="_blank" style="text-decoration:none;font-size:11px;">
+							<img src="/css/images/rss.png" width="16" height="16" alt="RIW RSS Feed">&nbsp;&nbsp;RIW RSS Feed
+						</a>
+                	</div>
+                </span>
+          	</div>
+      	</div>
+    	<div style="clear:both;"></div>
+	
+                </div>
+
+
+                <div style="clear:both;"></div>
+
+            </div><!-- <div class="center-content"> -->
+
+        </div><!-- end of <div class="center"> -->
+
+        <!-- sitemap area -->
+        <div class="footer">
+            		<style type="text/css">
+            .footer-column-head a:link, .footer-column-head a:visited {
+                color: #ED7A08;		
+            }
+		</style>
+		<div class="footer-content">
+							<div class="footer-column" style="padding:10px 10px;">
+                                            <p>
+                            <span class="footer-column-head">
+                                <a href="http://forecast.weather.gov/hazards/?wfo=riw">Current Hazards</a>
+                            </span><br>
+                                                        <a href="http://forecast.weather.gov/hazards/?wfo=riw">Watches/Warnings</a><br>
+                                                            <a href="http://www.spc.noaa.gov/products/outlook/">Outlooks</a><br>
+                                                            <a href="https://www.weather.gov/crh/stormreports?sid=riw">Submit Storm Report</a><br>
+                                                    </p>
+                                                <p>
+                            <span class="footer-column-head">
+                                <a href="">Social Media</a>
+                            </span><br>
+                                                        <a href="http://www.facebook.com/NWSRiverton">Facebook</a><br>
+                                                            <a href="http://www.twitter.com/NWSRiverton">Twitter</a><br>
+                                                            <a href="http://www.youtube.com/NWSRiverton">YouTube</a><br>
+                                                    </p>
+                              			</div>
+            				<div class="footer-column" style="padding:10px 10px;">
+                                            <p>
+                            <span class="footer-column-head">
+                                <a href="">Current Conditions</a>
+                            </span><br>
+                                                        <a href="http://www.weather.gov/crh/snowfall">Snow Cover</a><br>
+                                                            <a href="http://www.aviationweather.gov/metar?zoom=5">Observations</a><br>
+                                                            <a href="http://www.srh.noaa.gov/ridge2/RFC_Precip/index.php?site=riw">Precip Analysis</a><br>
+                                                            <a href="http://radar.weather.gov/radar.php?rid=riw">Radar</a><br>
+                                                            <a href="http://www.wrh.noaa.gov/mesowest/mwmap.php?map=wy">WY Observations</a><br>
+                                                            <a href="https://www.star.nesdis.noaa.gov/GOES/conus_band.php?sat=G16&amp;band=Sandwich&amp;length=12">Satellite</a><br>
+                                                    </p>
+                              			</div>
+            				<div class="footer-column" style="padding:10px 10px;">
+                                            <p>
+                            <span class="footer-column-head">
+                                <a href="">Forecasts</a>
+                            </span><br>
+                                                        <a href="http://www.spc.noaa.gov">Severe Weather</a><br>
+                                                            <a href="http://forecast.weather.gov/product.php?site=RIW&amp;issuedby=RIW&amp;product=AFD&amp;format=CI&amp;version=1&amp;glossary=1">Forecast Discussion</a><br>
+                                                            <a href="http://www.nws.noaa.gov/wtf/udaf/area/?site=riw">User Defined Forecast</a><br>
+                                                            <a href="http://www.weather.gov/riw/fire">Fire Weather</a><br>
+                                                            <a href="http://forecast.weather.gov/wxplanner.php?site=riw">Activity Planner</a><br>
+                                                            <a href="http://forecast.weather.gov/gridpoint.php?site=riw">Hourly Forecasts</a><br>
+                                                            <a href="https://weather.gov/riw/avalanche">Snow and Avalanche</a><br>
+                                                            <a href="https://www.weather.gov/riw/Aviation_DSS_Page">Aviation Weather Decision Support</a><br>
+                                                    </p>
+                              			</div>
+            				<div class="footer-column" style="padding:10px 10px;">
+                                            <p>
+                            <span class="footer-column-head">
+                                <a href="">Hydrology</a>
+                            </span><br>
+                                                        <a href="http://water.weather.gov/ahps2/index.php?wfo=RIW">Rivers and Lakes</a><br>
+                                                            <a href="http://www.weather.gov/riw/cms_snotel_quicklinks_graphs">SnoTel Page</a><br>
+                                                    </p>
+                                                <p>
+                            <span class="footer-column-head">
+                                <a href="">Weather Safety</a>
+                            </span><br>
+                                                        <a href="https://www.weather.gov/riw/2019_spotter_classes">SkyWarn</a><br>
+                                                            <a href="http://www.weather.gov/safety">Preparedness</a><br>
+                                                            <a href="https://www.weather.gov/nwr/">NOAA Weather Radio</a><br>
+                                                            <a href="http://www.stormready.noaa.gov/">StormReady</a><br>
+                                                    </p>
+                              			</div>
+            				<div class="footer-column" style="padding:10px 10px;">
+                                            <p>
+                            <span class="footer-column-head">
+                                <a href="">Climate</a>
+                            </span><br>
+                                                        <a href="https://www.weather.gov/riw/ClimateSummaries">Climate Summaries</a><br>
+                                                            <a href="http://">Previous Annual and Water Year Climate Summaries</a><br>
+                                                            <a href="https://www.weather.gov/riw/Wyoming_2018AnnualSummary">Annual and Water Year Climate Summaries</a><br>
+                                                            <a href="http://www.weather.gov/climate/index.php?wfo=riw">Local Climate</a><br>
+                                                            <a href="http://www.weather.gov/riw/cliplot">Local Climate Graphs</a><br>
+                                                            <a href="http://www.weather.gov/climate/">National Climate</a><br>
+                                                            <a href="http://www.weather.gov/riw/drought">Local Drought</a><br>
+                                                            <a href="http://www.climate.gov/">NOAA Climate Science</a><br>
+                                                            <a href="http://www.weather.gov/riw/cms_freezedates">Spring Frost/Freeze</a><br>
+                                                    </p>
+                              			</div>
+            				<div class="footer-column" style="padding:10px 10px;">
+                                            <p>
+                            <span class="footer-column-head">
+                                <a href="">Additional Information</a>
+                            </span><br>
+                                                        <a href="http://www.weather.gov/riw/cms_webcams_qview">Web Cams</a><br>
+                                                            <a href="http://www.weather.gov/riw/agburning">Agricultural Burning</a><br>
+                                                            <a href="http://www.weather.gov/riw/text_products">Text Products</a><br>
+                                                    </p>
+                              			</div>
+            		</div>
+	
+        </div><!-- end of <div class="footer"> -->
+
+        <!-- legal footer area -->
+        <div class="footer-legal">
+                    <div class="footer-legal">
+            <div class="footer-legal-content">
+
+                <div class="one-sixth-first" id="footer_legal_gov">
+                    <a href="http://www.usa.gov"><img src="/css/images/usa_gov.png" alt="usa.gov" width="110" height="30"></a>
+                </div>
+
+                <div class="one-half-first" id="footer_legal_info">
+                    <p> 
+                        <a href="http://www.commerce.gov">US Dept of Commerce</a><br>
+                        <a href="http://www.noaa.gov">National Oceanic and Atmospheric Administration</a><br>
+                        <a href="https://www.weather.gov">National Weather Service</a><br>
+                        Western and Central Wyoming<br>12744 West U.S. Hwy 26<br>Riverton, WY 82501<br>307-857-3898<br><br><a href="mailto:nws.riverton@noaa.gov">Comments? Questions? Please Contact Us.</a>                    </p>
+                </div><!-- end of <div class="one-half-first" id="footer_legal_info"> -->
+
+                <div class="one-third-last" id="footer_required_links">
+                    <div class="div-half">
+                        <a href="https://www.weather.gov/disclaimer">Disclaimer</a><br>
+                        <a href="http://www.cio.noaa.gov/services_programs/info_quality.html">Information Quality</a><br>
+                        <a href="https://www.weather.gov/help">Help</a><br>
+                        <a href="http://www.weather.gov/glossary">Glossary</a>
+                    </div>
+
+                    <div class="div-half">
+                        <a href="https://www.weather.gov/privacy">Privacy Policy</a><br>
+                        <a href="https://www.noaa.gov/foia-freedom-of-information-act">Freedom of Information Act (FOIA)</a><br>
+                        <a href="https://www.weather.gov/about">About Us</a><br>
+                        <a href="https://www.weather.gov/careers">Career Opportunities</a>
+                    </div>
+                </div><!-- end of <div class="one-third-last" id="footer_required_links"> -->
+
+            </div><!-- end of <div class="footer-legal-content"> -->
+        </div><!-- end of <div class="footer-legal"> -->
+        
+        </div><!-- end of <div class="footer-legal"> -->
+
+        <script type="text/javascript" src="//www.weather.gov/js/govshutdown.js"></script>
+    
+<div class="autocomplete-suggestions" style="position: absolute; display: none; width: 400px; max-height: 300px; z-index: 9999;"></div><div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><button type="button" id="cboxPrevious"></button><button type="button" id="cboxNext"></button><button id="cboxSlideshow"></button><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;"></div></div><div id="nwsexit-warning-dialog" style="display: none; position: fixed; top: 0; bottom: 0; right: 0; left: 0; z-index: 999999"><div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #000; opacity: 0.7; filter: alpha(opacity=70);"></div><div style="position: relative; width: 600px; margin: 10% auto; padding: 20px; border-radius: 5px; background: white"><p>Thank you for visiting a National Oceanic and Atmospheric Administration (NOAA) website. The link you have selected will take you to a non-U.S. Government website for additional information.</p><p>NOAA is not responsible for the content of any linked website not operated by NOAA. This link is provided solely for your information and convenience, and does not imply any endorsement by NOAA or the U.S. Department of Commerce of the linked website or any information, products, or services contained therein.</p><p>You will be redirected to: <span class="nwsexit-link"></span></p><p style="margin-top:20px;"><a href="#" class="nwsexit-url" style="padding:8px 16px; font-size:18px; text-decoration:none; font-weight:bold; margin-right:20px; border-radius: 5px; background:#ED7A08; color:#fff;">Continue</a><a href="#" class="nwsexit-url nwsexit-hide" style="padding:8px 16px; font-size:18px; text-decoration:none; font-weight:bold; margin-right:20px; border-radius: 5px; background:#ED7A08; color:#fff;" target="_blank">New Window</a><a href="#" class="nwsexit-cancel" style="padding:8px 16px; font-size:18px; text-decoration:none; font-weight:normal; margin-right:20px; border-radius: 5px; background:#aaa; color:#fff;">Cancel</a></p></div></div></body></html>
